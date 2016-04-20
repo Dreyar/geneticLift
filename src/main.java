@@ -4,7 +4,7 @@ import java.util.Arrays;
  * Created by nikom on 20/4/2016.
  */
 public class main {
-    public static void main(String[] args) {
+    public static void main(String[] nikos) {
         population pop = new population(geneticAlgo.population_size).initializePopulation();
         geneticAlgo geneticAlgorithm = new geneticAlgo();
         System.out.println("-----------------------------------------");
